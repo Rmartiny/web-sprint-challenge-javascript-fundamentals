@@ -31,7 +31,7 @@ function myFunction() {
 */
 
 function summation(number) {
-  let count=0
+  let count=0;
   return function counter(){return count++;}
 }
  console.log(summation(4))
