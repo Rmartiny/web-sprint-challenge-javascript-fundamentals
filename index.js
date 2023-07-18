@@ -34,7 +34,7 @@ function summation(number) {
   let count=0
   return function counter(){return count++;}
 }
- console.log summation(4)
+ console.log(summation(4))
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
 // Given this zoo data from around the United States, follow the instructions below. Use the specific array methods in the requests below to solve the problems.
