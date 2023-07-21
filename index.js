@@ -232,6 +232,12 @@ console.log(cuboid.surfaceArea()); // 130
 //Using CuboidMakerTwo, take your prototypes from above and refactor into class syntax. Then, create an object called cuboidTwo that uses the new keyword to use our CuboidMakerTwo class.
  
 class CuboidMakerTwo{
+  constructor (attr){
+    this.length=attr.length;
+    this.width=attr.width;
+    this.height=attr.height
+
+  }
 
 }
 
