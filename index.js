@@ -156,8 +156,8 @@ function multiply(num1,num2){
 💡 NOTE: The string returned must match the format above or the test will not pass!
 */
 
-function greeting(first-name,last-name){
-   return `Hello ${first-name} ${last-name}, nice to meet you!`
+function greeting(firstname,lastname){
+   return `Hello ${firstname} ${lastname}, nice to meet you!`
   }
   
   
