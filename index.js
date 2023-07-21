@@ -31,9 +31,9 @@ function myFunction() {
 */
 
 function summation(number) {
-  let count=0;
-  for(let i=0; i =< number; i++)
-  
+  let sum=0;
+  for(let i=0; i <= sum; i++){sum+= i}
+  return sum
 }
  console.log(summation(4))
 
