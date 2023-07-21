@@ -183,9 +183,9 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 */
 
 function CuboidMaker(length,width,height){
-  this.length=length
-  this.width=width
-  this.height=height
+  this.length=length;
+  this.width=width;
+  this.height=height;
 }
 
 
