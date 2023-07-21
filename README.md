@@ -43,6 +43,7 @@ new binding creates a new object
 5. Why do we need super() in an extended class?
 its calls the class to invoke the key value pairs 
 
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
