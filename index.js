@@ -62,7 +62,7 @@ const zooAnimals = [
   */
 
   function animalNames(zooAnimals){
-    zooAnimals.forEach(zooAnimals => { return zooAnimals.name; zooAnimals.scientific_name
+    zooAnimals.forEach(zooAnimals => { return zooAnimals.name, zooAnimals.scientific_name;
       
     });
     
