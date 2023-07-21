@@ -32,6 +32,7 @@ function myFunction() {
 
 function summation(number) {
   let count=0;
+  for(let i=0; i=> number.length; i++;)
   return function counter(){return count++;}
 }
  console.log(summation(4))
