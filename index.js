@@ -93,7 +93,9 @@ const zooAnimals = [
   3. Return this new array
   */
 
-  function lowPopulationAnimals(/*Your Code Here*/){
+  function lowPopulationAnimals(array){
+    const smallGroup= array.fliter(item => item.population >5)
+    return smallGroup
     /*Your Code Here*/
   }
   
