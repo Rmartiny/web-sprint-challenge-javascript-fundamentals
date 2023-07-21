@@ -32,7 +32,7 @@ function myFunction() {
 
 function summation(number) {
   let sum=0;
-  for(let i=0; i <= sum; i++){sum+= i}
+  for(let i=0; i <= number; i++){sum+= i}
   return sum
 }
  console.log(summation(4))
