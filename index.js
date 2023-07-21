@@ -62,12 +62,15 @@ const zooAnimals = [
   */
 
   function animalNames(array){
-    array.forEach(Element => { return array.name, array.scientific_name;
-      
-    });
+   const names =[];
+   array.foreach(function(array)){
+   return array.name;
+   array.scientific_name;
+  } 
+  console.log(names)};
     console.log(animalNames(zooAnimals))
     
-  }
+  
   
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
