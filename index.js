@@ -146,9 +146,8 @@ function add(num1,num2){
 2. Return the product of those numbers
 */
 
-function multiply(/*Your Code Here */){
-   /*Your Code Here */
-  }
+function multiply(num1,num2){
+   return(num1*num2)
 
 
  /* Use greeting to do the following:
