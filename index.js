@@ -182,8 +182,10 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 - Instances of CuboidMaker should initialize `length`, `width` and `height` properties
 */
 
-function CuboidMaker(/*Your Code Here */){
-  /*Your Code Here */
+function CuboidMaker(length,width,height){
+  this.length=length
+  this.width=width
+  this.height=height
 }
 
 
